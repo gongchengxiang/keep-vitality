@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "./keep-vitality/static/css/main.76ee1a9e.css",
+    "main.js": "./keep-vitality/static/js/main.c9b3a22e.js",
+    "index.html": "./keep-vitality/index.html",
+    "main.76ee1a9e.css.map": "./keep-vitality/static/css/main.76ee1a9e.css.map",
+    "main.c9b3a22e.js.map": "./keep-vitality/static/js/main.c9b3a22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76ee1a9e.css",
+    "static/js/main.c9b3a22e.js"
+  ]
+}
