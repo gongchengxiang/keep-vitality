@@ -31,6 +31,10 @@
   },
   "devDependencies": {
     "sass": "^1.45.2"
+<<<<<<< HEAD
   },
   "homepage": "./keep-vitality"
+=======
+  }
+>>>>>>> 5490729d7c704c397f59f690bfc83e6641fb89fb
 }
