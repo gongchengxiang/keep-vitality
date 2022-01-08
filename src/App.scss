@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
   .keep-app {
     background-image: linear-gradient(141deg,#aae8cd 0%,#1fc8db 51%,#2cb5e8 75%);
     height: 100vh;
@@ -20,16 +21,22 @@
     .keep-btn {
       height: 120px;
       .btn {
-        content: ' ';
+        content: " ";
         width: 120px;
         height: 120px;
-        background: #6dc728;
+        background: #159f92;
         color: #47fff7;
         display: block;
         margin: 0 auto;
         border-radius: 50%;
         text-align: center;
         line-height: 120px;
+        box-shadow: 0 0 14px 4px #027887;
+        &.touching {
+          background: #009688;
+          color: #c2fdfa;
+          box-shadow: 0 0 11px 6px #09aec3;
+        }
       }
     }
     .list {
@@ -40,8 +47,20 @@
       .list-item {
         height: 40px;
         line-height: 40px;
-        color: #ffeb3b;
+        .keeped {
+          color: #ffeb3b;
+        }
+        .lose {
+          color: red;
+        }
+        .today {
+          color: green;
+          & + .icon {
+            color: green;
+          }
+        }
         .icon {
+          color: #ffeb3b;
           float: right;
         }
       }
