@@ -9,6 +9,13 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+      // VConsole 会自动挂载到 `window.VConsole`
+      if (!location.hostname.indexOf("gongchengxiang") > -1) {
+        new window.VConsole();
+      }
+    </script>
     <div id="root"></div>
   </body>
 </html>
